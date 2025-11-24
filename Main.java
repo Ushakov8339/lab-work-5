@@ -12,4 +12,11 @@ class Main{
             System.out.print("Число: " + i);
         }
     }
+    public static void checkEvenOdd(int number) {
+        if (number % 2 == 0) {
+            System.out.print(number + " - четное");
+        } else {
+            System.out.print(number + " - нечетное");
+        }
+    }
 }
