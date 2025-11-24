@@ -2,6 +2,7 @@ class Main{
     public static void main(String[] args) {
         System.out.println("Это добавлено в ветке dev");
         findMaxInArray(new int[]{3, 7, 2, 9, 1});
+        sayHello();
     }
     public static void findMaxInArray(int[] array) {
         int max = array[0];
@@ -11,5 +12,8 @@ class Main{
             }
         }
         System.out.print("Максимальный элемент в массиве: " + max);
+    }
+    public static void sayHello() {
+        System.out.print("Привет из ветки dev!");
     }
 }
