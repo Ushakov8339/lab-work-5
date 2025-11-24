@@ -7,4 +7,9 @@ class Main{
         int result = a + b;
         System.out.print("Сумма: " + result);
     }
+    public static void printNumbers(int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.print("Число: " + i);
+        }
+    }
 }
